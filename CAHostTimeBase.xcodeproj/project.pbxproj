@@ -1,0 +1,280 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		00C9C19916B3382C00A70A39 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 00C9C19816B3382C00A70A39 /* Foundation.framework */; };
+		00C9C1B416B3399A00A70A39 /* CAHostTimeBase.mm in Sources */ = {isa = PBXBuildFile; fileRef = 00C9C1B316B3399A00A70A39 /* CAHostTimeBase.mm */; };
+		00C9C1B816B33DB100A70A39 /* _CAHostTimeBase.h in Headers */ = {isa = PBXBuildFile; fileRef = 00C9C1AC16B3392600A70A39 /* _CAHostTimeBase.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		00C9C1B916B33DB100A70A39 /* CADebugMacros.h in Headers */ = {isa = PBXBuildFile; fileRef = 00C9C1AD16B3392600A70A39 /* CADebugMacros.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		00C9C1BA16B33DB100A70A39 /* CADebugPrintf.h in Headers */ = {isa = PBXBuildFile; fileRef = 00C9C1AE16B3392600A70A39 /* CADebugPrintf.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		00C9C1BB16B33DB100A70A39 /* CAHostTimeBase.h in Headers */ = {isa = PBXBuildFile; fileRef = 00C9C1B216B3399A00A70A39 /* CAHostTimeBase.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		00C9C2A616B348BA00A70A39 /* _CAHostTimeBase.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 00C9C2A516B348BA00A70A39 /* _CAHostTimeBase.cpp */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		00C9C19316B3382C00A70A39 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "include/${PRODUCT_NAME}";
+			dstSubfolderSpec = 16;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		00C9C19516B3382C00A70A39 /* libCAHostTimeBase.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libCAHostTimeBase.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		00C9C19816B3382C00A70A39 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		00C9C1AC16B3392600A70A39 /* _CAHostTimeBase.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = _CAHostTimeBase.h; sourceTree = "<group>"; };
+		00C9C1AD16B3392600A70A39 /* CADebugMacros.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CADebugMacros.h; sourceTree = "<group>"; };
+		00C9C1AE16B3392600A70A39 /* CADebugPrintf.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CADebugPrintf.h; sourceTree = "<group>"; };
+		00C9C1B216B3399A00A70A39 /* CAHostTimeBase.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CAHostTimeBase.h; sourceTree = "<group>"; };
+		00C9C1B316B3399A00A70A39 /* CAHostTimeBase.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = CAHostTimeBase.mm; sourceTree = "<group>"; };
+		00C9C1B516B339A000A70A39 /* CAHostTimeBase-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "CAHostTimeBase-Prefix.pch"; sourceTree = "<group>"; };
+		00C9C2A516B348BA00A70A39 /* _CAHostTimeBase.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = _CAHostTimeBase.cpp; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		00C9C19216B3382C00A70A39 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				00C9C19916B3382C00A70A39 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		00C9C18A16B3382C00A70A39 = {
+			isa = PBXGroup;
+			children = (
+				00C9C1AB16B3392600A70A39 /* Code */,
+				00C9C19716B3382C00A70A39 /* Frameworks */,
+				00C9C19616B3382C00A70A39 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		00C9C19616B3382C00A70A39 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				00C9C19516B3382C00A70A39 /* libCAHostTimeBase.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		00C9C19716B3382C00A70A39 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				00C9C19816B3382C00A70A39 /* Foundation.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		00C9C1AB16B3392600A70A39 /* Code */ = {
+			isa = PBXGroup;
+			children = (
+				00C9C1AC16B3392600A70A39 /* _CAHostTimeBase.h */,
+				00C9C2A516B348BA00A70A39 /* _CAHostTimeBase.cpp */,
+				00C9C1AD16B3392600A70A39 /* CADebugMacros.h */,
+				00C9C1AE16B3392600A70A39 /* CADebugPrintf.h */,
+				00C9C1B216B3399A00A70A39 /* CAHostTimeBase.h */,
+				00C9C1B316B3399A00A70A39 /* CAHostTimeBase.mm */,
+				00C9C1B616B339BD00A70A39 /* Supporting Files */,
+			);
+			name = Code;
+			path = CAHostTimeBase;
+			sourceTree = "<group>";
+		};
+		00C9C1B616B339BD00A70A39 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				00C9C1B516B339A000A70A39 /* CAHostTimeBase-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		00C9C1B716B33DAC00A70A39 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				00C9C1BB16B33DB100A70A39 /* CAHostTimeBase.h in Headers */,
+				00C9C1B816B33DB100A70A39 /* _CAHostTimeBase.h in Headers */,
+				00C9C1BA16B33DB100A70A39 /* CADebugPrintf.h in Headers */,
+				00C9C1B916B33DB100A70A39 /* CADebugMacros.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		00C9C19416B3382C00A70A39 /* CAHostTimeBase */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 00C9C1A316B3382C00A70A39 /* Build configuration list for PBXNativeTarget "CAHostTimeBase" */;
+			buildPhases = (
+				00C9C19116B3382C00A70A39 /* Sources */,
+				00C9C19216B3382C00A70A39 /* Frameworks */,
+				00C9C19316B3382C00A70A39 /* CopyFiles */,
+				00C9C1B716B33DAC00A70A39 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CAHostTimeBase;
+			productName = CAHostTimeBase;
+			productReference = 00C9C19516B3382C00A70A39 /* libCAHostTimeBase.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		00C9C18C16B3382C00A70A39 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0450;
+				ORGANIZATIONNAME = "Casual Underground";
+			};
+			buildConfigurationList = 00C9C18F16B3382C00A70A39 /* Build configuration list for PBXProject "CAHostTimeBase" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 00C9C18A16B3382C00A70A39;
+			productRefGroup = 00C9C19616B3382C00A70A39 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				00C9C19416B3382C00A70A39 /* CAHostTimeBase */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		00C9C19116B3382C00A70A39 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				00C9C1B416B3399A00A70A39 /* CAHostTimeBase.mm in Sources */,
+				00C9C2A616B348BA00A70A39 /* _CAHostTimeBase.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		00C9C1A116B3382C00A70A39 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = (
+					"$(ARCHS_STANDARD_32_BIT)",
+					i386,
+				);
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++98";
+				CLANG_CXX_LIBRARY = "libstdc++";
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				VALID_ARCHS = "armv7 armv7s i386";
+			};
+			name = Debug;
+		};
+		00C9C1A216B3382C00A70A39 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = (
+					"$(ARCHS_STANDARD_32_BIT)",
+					i386,
+				);
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++98";
+				CLANG_CXX_LIBRARY = "libstdc++";
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+				VALID_ARCHS = "armv7 armv7s i386";
+			};
+			name = Release;
+		};
+		00C9C1A416B3382C00A70A39 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DSTROOT = /tmp/CAHostTimeBase.dst;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "CAHostTimeBase/CAHostTimeBase-Prefix.pch";
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		00C9C1A516B3382C00A70A39 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DSTROOT = /tmp/CAHostTimeBase.dst;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "CAHostTimeBase/CAHostTimeBase-Prefix.pch";
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		00C9C18F16B3382C00A70A39 /* Build configuration list for PBXProject "CAHostTimeBase" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				00C9C1A116B3382C00A70A39 /* Debug */,
+				00C9C1A216B3382C00A70A39 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		00C9C1A316B3382C00A70A39 /* Build configuration list for PBXNativeTarget "CAHostTimeBase" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				00C9C1A416B3382C00A70A39 /* Debug */,
+				00C9C1A516B3382C00A70A39 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 00C9C18C16B3382C00A70A39 /* Project object */;
+}
