@@ -24,11 +24,4 @@
 + (UInt64)absoluteHostDeltaToNanosInStartTime:(UInt64)startTime inEndTime:(UInt64)endTime;
 + (SInt64)hostDeltaToNanosInStartTime:(UInt64)startTime inEndTime:(UInt64)endTime;
 
-+ (SInt64)msecsToNanos:(Float32)msecs;
-+ (SInt64)secondsToNanos:(Float32)seconds;
-+ (SInt32)nanosToMsecs:(SInt64)nanos;
-+ (Float32)nanosToSeconds:(SInt64)nanos;
-+ (UInt64)tickTimeFromBpm:(Float32)bpm;
-+ (Float32)bpmFromTickTime:(UInt64)tick;
-
 @end

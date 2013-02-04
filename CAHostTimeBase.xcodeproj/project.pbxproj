@@ -7,13 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0011581616BDB2E9003885F5 /* CAHostTimeBase.m in Sources */ = {isa = PBXBuildFile; fileRef = 00C9C1B316B3399A00A70A39 /* CAHostTimeBase.m */; };
 		00C9C19916B3382C00A70A39 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 00C9C19816B3382C00A70A39 /* Foundation.framework */; };
-		00C9C1B416B3399A00A70A39 /* CAHostTimeBase.mm in Sources */ = {isa = PBXBuildFile; fileRef = 00C9C1B316B3399A00A70A39 /* CAHostTimeBase.mm */; };
-		00C9C1B816B33DB100A70A39 /* _CAHostTimeBase.h in Headers */ = {isa = PBXBuildFile; fileRef = 00C9C1AC16B3392600A70A39 /* _CAHostTimeBase.h */; settings = {ATTRIBUTES = (Private, ); }; };
-		00C9C1B916B33DB100A70A39 /* CADebugMacros.h in Headers */ = {isa = PBXBuildFile; fileRef = 00C9C1AD16B3392600A70A39 /* CADebugMacros.h */; settings = {ATTRIBUTES = (Private, ); }; };
-		00C9C1BA16B33DB100A70A39 /* CADebugPrintf.h in Headers */ = {isa = PBXBuildFile; fileRef = 00C9C1AE16B3392600A70A39 /* CADebugPrintf.h */; settings = {ATTRIBUTES = (Private, ); }; };
 		00C9C1BB16B33DB100A70A39 /* CAHostTimeBase.h in Headers */ = {isa = PBXBuildFile; fileRef = 00C9C1B216B3399A00A70A39 /* CAHostTimeBase.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		00C9C2A616B348BA00A70A39 /* _CAHostTimeBase.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 00C9C2A516B348BA00A70A39 /* _CAHostTimeBase.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -31,13 +27,9 @@
 /* Begin PBXFileReference section */
 		00C9C19516B3382C00A70A39 /* libCAHostTimeBase.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libCAHostTimeBase.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		00C9C19816B3382C00A70A39 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
-		00C9C1AC16B3392600A70A39 /* _CAHostTimeBase.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = _CAHostTimeBase.h; sourceTree = "<group>"; };
-		00C9C1AD16B3392600A70A39 /* CADebugMacros.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CADebugMacros.h; sourceTree = "<group>"; };
-		00C9C1AE16B3392600A70A39 /* CADebugPrintf.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CADebugPrintf.h; sourceTree = "<group>"; };
 		00C9C1B216B3399A00A70A39 /* CAHostTimeBase.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CAHostTimeBase.h; sourceTree = "<group>"; };
-		00C9C1B316B3399A00A70A39 /* CAHostTimeBase.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = CAHostTimeBase.mm; sourceTree = "<group>"; };
+		00C9C1B316B3399A00A70A39 /* CAHostTimeBase.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CAHostTimeBase.m; sourceTree = "<group>"; };
 		00C9C1B516B339A000A70A39 /* CAHostTimeBase-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "CAHostTimeBase-Prefix.pch"; sourceTree = "<group>"; };
-		00C9C2A516B348BA00A70A39 /* _CAHostTimeBase.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = _CAHostTimeBase.cpp; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -80,12 +72,8 @@
 		00C9C1AB16B3392600A70A39 /* Code */ = {
 			isa = PBXGroup;
 			children = (
-				00C9C1AC16B3392600A70A39 /* _CAHostTimeBase.h */,
-				00C9C2A516B348BA00A70A39 /* _CAHostTimeBase.cpp */,
-				00C9C1AD16B3392600A70A39 /* CADebugMacros.h */,
-				00C9C1AE16B3392600A70A39 /* CADebugPrintf.h */,
 				00C9C1B216B3399A00A70A39 /* CAHostTimeBase.h */,
-				00C9C1B316B3399A00A70A39 /* CAHostTimeBase.mm */,
+				00C9C1B316B3399A00A70A39 /* CAHostTimeBase.m */,
 				00C9C1B616B339BD00A70A39 /* Supporting Files */,
 			);
 			name = Code;
@@ -108,9 +96,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				00C9C1BB16B33DB100A70A39 /* CAHostTimeBase.h in Headers */,
-				00C9C1B816B33DB100A70A39 /* _CAHostTimeBase.h in Headers */,
-				00C9C1BA16B33DB100A70A39 /* CADebugPrintf.h in Headers */,
-				00C9C1B916B33DB100A70A39 /* CADebugMacros.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -166,8 +151,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				00C9C1B416B3399A00A70A39 /* CAHostTimeBase.mm in Sources */,
-				00C9C2A616B348BA00A70A39 /* _CAHostTimeBase.cpp in Sources */,
+				0011581616BDB2E9003885F5 /* CAHostTimeBase.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
