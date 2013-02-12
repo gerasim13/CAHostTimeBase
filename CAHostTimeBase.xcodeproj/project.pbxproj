@@ -9,7 +9,7 @@
 /* Begin PBXBuildFile section */
 		0011581616BDB2E9003885F5 /* CAHostTimeBase.m in Sources */ = {isa = PBXBuildFile; fileRef = 00C9C1B316B3399A00A70A39 /* CAHostTimeBase.m */; };
 		00C9C19916B3382C00A70A39 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 00C9C19816B3382C00A70A39 /* Foundation.framework */; };
-		00C9C1BB16B33DB100A70A39 /* CAHostTimeBase.h in Headers */ = {isa = PBXBuildFile; fileRef = 00C9C1B216B3399A00A70A39 /* CAHostTimeBase.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		00C9C1BB16B33DB100A70A39 /* CAHostTimeBase.h in Headers */ = {isa = PBXBuildFile; fileRef = 00C9C1B216B3399A00A70A39 /* CAHostTimeBase.h */; settings = {ATTRIBUTES = (); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */

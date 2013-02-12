@@ -78,9 +78,6 @@ static UInt64  sLastTime = 0;
 	Float64 theFloatAnswer = thePartialAnswer * theNumerator;
 	UInt64 theAnswer = theFloatAnswer;
     
-	//Assert(!((theNumerator > theDenominator) && (theAnswer < inHostTime)), "CAHostTimeBase::ConvertToNanos: The conversion wrapped");
-	//Assert(!((theDenominator > theNumerator) && (theAnswer > inHostTime)), "CAHostTimeBase::ConvertToNanos: The conversion wrapped");
-    
 	return theAnswer;
 }
 
@@ -98,9 +95,6 @@ static UInt64  sLastTime = 0;
 	Float64 thePartialAnswer = theNanos / theNumerator;
 	Float64 theFloatAnswer = thePartialAnswer * theDenominator;
 	UInt64 theAnswer = theFloatAnswer;
-    
-	//Assert(!((theDenominator > theNumerator) && (theAnswer < inNanos)), "CAHostTimeBase::ConvertToNanos: The conversion wrapped");
-	//Assert(!((theNumerator > theDenominator) && (theAnswer > inNanos)), "CAHostTimeBase::ConvertToNanos: The conversion wrapped");
     
 	return theAnswer;
 }
