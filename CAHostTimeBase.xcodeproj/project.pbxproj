@@ -181,7 +181,7 @@
 				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
-				VALID_ARCHS = "armv7 armv7s i386";
+				VALID_ARCHS = "$(inherited)";
 			};
 			name = Debug;
 		};
@@ -202,13 +202,14 @@
 				ONLY_ACTIVE_ARCH = NO;
 				SDKROOT = iphoneos;
 				VALIDATE_PRODUCT = YES;
-				VALID_ARCHS = "armv7 armv7s";
+				VALID_ARCHS = "$(inherited)";
 			};
 			name = Release;
 		};
 		00C9C1A416B3382C00A70A39 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
 				DSTROOT = /tmp/CAHostTimeBase.dst;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "CAHostTimeBase/CAHostTimeBase-Prefix.pch";
@@ -221,6 +222,7 @@
 		00C9C1A516B3382C00A70A39 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD)";
 				DSTROOT = /tmp/CAHostTimeBase.dst;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "CAHostTimeBase/CAHostTimeBase-Prefix.pch";
