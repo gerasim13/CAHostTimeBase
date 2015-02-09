@@ -126,7 +126,7 @@
 		00C9C18C16B3382C00A70A39 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastUpgradeCheck = 0500;
+				LastUpgradeCheck = 0610;
 				ORGANIZATIONNAME = "Casual Underground";
 			};
 			buildConfigurationList = 00C9C18F16B3382C00A70A39 /* Build configuration list for PBXProject "CAHostTimeBase" */;
@@ -209,7 +209,6 @@
 		00C9C1A416B3382C00A70A39 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
 				DSTROOT = /tmp/CAHostTimeBase.dst;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "CAHostTimeBase/CAHostTimeBase-Prefix.pch";
@@ -222,7 +221,6 @@
 		00C9C1A516B3382C00A70A39 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ARCHS = "$(ARCHS_STANDARD)";
 				DSTROOT = /tmp/CAHostTimeBase.dst;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "CAHostTimeBase/CAHostTimeBase-Prefix.pch";
